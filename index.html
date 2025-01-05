@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Shopping Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>SIMPLE SHOPPING CART</h1>
+        <div id="cart-summary">
+            <button id="view-cart">View Cart (<span id="cart-count">0</span>)</button>
+        </div>
+    </header>
+
+    <section id="product-list">
+        <!-- Product items will be dynamically inserted here -->
+    </section>
+
+    <!-- Message for end of product list -->
+    <div id="end-message" style="text-align: center; font-size: 1.2rem; margin-top: 20px; margin-bottom: 30px;">
+        That's all the items we have for you. Enjoy shopping!
+    </div>
+
+    <!-- Cart Modal -->
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <h2>Your Cart</h2>
+            <div id="cart-items"></div>
+            <div>Total: <span id="total-price">৳0.00</span></div>
+            <button id="clear-cart">Clear Cart</button>
+            <button id="checkout">Checkout</button>
+            <button id="close-cart">Close</button>
+        </div>
+    </div>
+
+    <script src="js/products.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/ui.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Shoe",
+        "description": "Comfortable running shoes for all-day wear.",
+        "price": 5499.00,
+        "image": "images/product 1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Watch",
+        "description": "Stylish wristwatch with leather strap.",
+        "price": 2999.00,
+        "image": "images/product 2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Sunglass",
+        "description": "UV-protected stylish sunglass.",
+        "price": 1499.00,
+        "image": "images/product 3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Belt",
+        "description": "Leather belt for all occasions.",
+        "price": 999.00,
+        "image": "images/product 4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Wallet",
+        "description": "Compact wallet for daily use.",
+        "price": 699.00,
+        "image": "images/product 5.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Leather Bag",
+        "description": "Stylish leather bag for everyday use.",
+        "price": 2599.00,
+        "image": "images/product 6.jpg"
+    }
+]
