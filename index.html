@@ -18,17 +18,22 @@
         <!-- Product items will be dynamically inserted here -->
     </section>
 
-    <!-- Message for end of product list -->
     <div id="end-message" style="text-align: center; font-size: 1.2rem; margin-top: 20px; margin-bottom: 30px;">
         That's all the items we have for you. Enjoy shopping!
     </div>
 
-    <!-- Cart Modal -->
     <div id="cart-modal" class="modal">
         <div class="modal-content">
             <h2>Your Cart</h2>
             <div id="cart-items"></div>
-            <div>Total: <span id="total-price">৳0.00</span></div>
+            <div>Subtotal: ৳<span id="subtotal-amount">0.00</span></div>
+            <div id="promo-section">
+                <input type="text" id="promo-code" placeholder="Enter Promo Code" />
+                <button id="apply-promo">Apply</button>
+                <div id="promo-message"></div>
+            </div>
+            <div id="discount-amount">Discount: ৳0.00</div>
+            <div>Total: ৳<span id="total-price">0.00</span></div>
             <button id="clear-cart">Clear Cart</button>
             <button id="checkout">Checkout</button>
             <button id="close-cart">Close</button>
